@@ -36,7 +36,7 @@ r_o = [0.1, -2.0]
 v_s = [0.0, 0.0] # In astronomical units per year
 v_e = [-6.32, 0.0] # In astronomical units per year
 v_m = [-5.05, 0.0] # In astronomical units per year
-v_o = [0.1, 1.0]
+v_o = [4, 1.0]
 
 # pack into NxD array and vector log length N*D
 r0 = np.reshape([r_s, r_e, r_m, r_o], [N, D])
